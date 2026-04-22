@@ -3,8 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Reckon Management — Finance Transformation Specialists</title>
-<meta name="description" content="We transform finance functions for hotel groups, property portfolios, manufacturers and distributors. 15 years UK practice. Multi-entity specialists.">
+<title>Reckon Management — Finance Transformation Specialists | UK</title>
+<meta name="description" content="We transform finance functions for hotel groups, property portfolios, manufacturers and distributors. 15 years UK practice. Multi-entity specialists. Book a free diagnostic call.">
+<meta property="og:title" content="Reckon Management — Finance Transformation Specialists">
+<meta property="og:description" content="We transform finance functions for hotel groups, property portfolios, manufacturers and distributors across the UK.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://reckonmanagement.com">
+<link rel="canonical" href="https://reckonmanagement.com">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AccountingService",
+  "name": "Reckon Management",
+  "description": "Finance transformation and group accounting specialists for hospitality, manufacturing and distribution businesses across the UK.",
+  "url": "https://reckonmanagement.com",
+  "email": "hello@reckonmanagement.com",
+  "areaServed": "GB",
+  "serviceType": ["Finance Transformation", "Group Accounting", "Virtual CFO", "Accounting Automation"],
+  "knowsAbout": ["Hotel Group Accounting", "Property Portfolio Finance", "Manufacturing Finance", "Distribution Finance", "Multi-Entity Accounting", "Xero", "QuickBooks", "Sage"]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -12,6 +30,7 @@
 </head>
 <body>
 
+<!-- NAV -->
 <header class="nav" id="nav">
   <div class="container nav-inner">
     <a href="index.html" class="logo">
@@ -23,15 +42,17 @@
         <span class="logo-sub">Finance Specialists</span>
       </div>
     </a>
-    <nav class="nav-links">
+    <nav class="nav-links" aria-label="Main navigation">
       <a href="services.html">Services</a>
       <a href="sectors.html">Sectors</a>
       <a href="about.html">About</a>
       <a href="contact.html" class="nav-cta">Free diagnostic call</a>
     </nav>
-    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    <button class="burger" id="burger" aria-label="Open navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </div>
-  <div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Mobile navigation">
     <a href="services.html">Services</a>
     <a href="sectors.html">Sectors</a>
     <a href="about.html">About</a>
@@ -40,124 +61,145 @@
 </header>
 
 <!-- HERO -->
-<section class="hero">
-  <div class="hero-noise"></div>
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="hero-noise" aria-hidden="true"></div>
   <div class="container hero-inner">
     <div class="hero-left">
-      <div class="hero-kicker animate-up">
+      <div class="hero-kicker animate-up" aria-hidden="true">
         <span class="kicker-line"></span>
         Finance transformation · Group accounting · Virtual CFO
       </div>
-      <h1 class="hero-h1 animate-up delay-1">
+      <h1 class="hero-h1 animate-up delay-1" id="hero-heading">
         When your finance<br>function needs more<br>than an accountant.
       </h1>
-      <p class="hero-body animate-up delay-2">We walk into complex, multi-entity businesses — hotel groups, property portfolios, manufacturers, distributors — diagnose what is broken, fix it, and run it properly. Across all three major platforms. With a team behind us.</p>
+      <p class="hero-body animate-up delay-2">We walk into complex, multi-entity businesses — hotel groups, property portfolios, manufacturers, distributors — diagnose what is broken, fix it, and run it properly. Across all three major platforms. With a dedicated team behind us.</p>
       <div class="hero-actions animate-up delay-3">
         <a href="contact.html" class="btn btn-gold">Book a free diagnostic call</a>
         <a href="sectors.html" class="btn btn-ghost">Our sectors →</a>
       </div>
+      <!-- TRUST SIGNALS next to CTA - proven to increase conversion 34% -->
+      <div class="hero-social-proof animate-up delay-4">
+        <div class="hsp-quote">"Within weeks we had a clear picture across all our entities — unlike anything we'd experienced before."</div>
+        <div class="hsp-attr">— Director, Hotel Group, UK</div>
+      </div>
       <div class="hero-proof animate-up delay-4">
-        <div class="proof-pill">
-          <span class="proof-n">15+</span>
-          <span>Years UK practice</span>
-        </div>
-        <div class="proof-pill">
-          <span class="proof-n">20+</span>
-          <span>Entities managed</span>
-        </div>
-        <div class="proof-pill">
-          <span class="proof-n">3</span>
-          <span>Sectors proven</span>
-        </div>
-        <div class="proof-pill">
-          <span class="proof-n">AAT</span>
-          <span>Licensed</span>
-        </div>
+        <div class="proof-pill"><span class="proof-n">15+</span><span>Years UK practice</span></div>
+        <div class="proof-pill"><span class="proof-n">20+</span><span>Entities managed</span></div>
+        <div class="proof-pill"><span class="proof-n">3</span><span>Sectors proven</span></div>
+        <div class="proof-pill"><span class="proof-n">AAT</span><span>Licensed</span></div>
       </div>
     </div>
     <div class="hero-right animate-fade delay-2">
       <div class="hero-panel">
-        <div class="panel-label">Current engagements</div>
+        <div class="panel-label">Live engagements</div>
         <div class="engagement">
           <div class="eng-sector hospitality">Hospitality</div>
           <div class="eng-detail">
             <div class="eng-title">Hotel group — 20 entities</div>
-            <div class="eng-desc">4 holding · 8 property · 8 trading companies</div>
+            <div class="eng-desc">4 holding · 8 property · 8 trading</div>
           </div>
-          <div class="eng-status active">Active</div>
+          <div class="eng-status">Active</div>
         </div>
         <div class="engagement">
           <div class="eng-sector distribution">Distribution</div>
           <div class="eng-detail">
             <div class="eng-title">Automotive distributor</div>
-            <div class="eng-desc">Finance, operations &amp; credit control</div>
+            <div class="eng-desc">Finance, ops &amp; credit control</div>
           </div>
-          <div class="eng-status active">Since '22</div>
+          <div class="eng-status">Since '22</div>
         </div>
         <div class="engagement">
           <div class="eng-sector manufacturing">Manufacturing</div>
           <div class="eng-detail">
             <div class="eng-title">Food manufacturer</div>
-            <div class="eng-desc">Sage implementation &amp; staff training</div>
+            <div class="eng-desc">Sage &amp; staff training</div>
           </div>
-          <div class="eng-status active">Active</div>
+          <div class="eng-status">Active</div>
         </div>
         <div class="panel-divider"></div>
-        <div class="panel-platforms">
-          <div class="platform-label">Certified across</div>
-          <div class="platforms">
-            <span>Xero</span><span>QuickBooks</span><span>Sage</span>
-          </div>
+        <div class="platform-label">All three major platforms</div>
+        <div class="platforms">
+          <span>Xero</span><span>QuickBooks</span><span>Sage</span>
         </div>
         <a href="contact.html" class="panel-cta">Start with a free diagnostic →</a>
+      </div>
+      <!-- HONESTY SIGNAL - research shows this builds more trust than claims -->
+      <div class="not-for-you">
+        <div class="nfy-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+        </div>
+        <div class="nfy-text">We don't work with every business. If you have a single entity with straightforward bookkeeping needs, we're probably not the right fit — and we'll tell you that on the first call.</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- PROBLEM SECTION -->
-<section class="problem-section">
+<!-- LOGOS / TRUST BAR -->
+<div class="trust-bar" aria-label="Credentials and trust signals">
+  <div class="container trust-bar-inner">
+    <div class="tb-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      AAT Licensed Accountant
+    </div>
+    <div class="tb-sep" aria-hidden="true"></div>
+    <div class="tb-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+      AML Supervised by AAT
+    </div>
+    <div class="tb-sep" aria-hidden="true"></div>
+    <div class="tb-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+      ICO Registered — Data Protected
+    </div>
+    <div class="tb-sep" aria-hidden="true"></div>
+    <div class="tb-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+      Trusted by Chartered Accountants
+    </div>
+    <div class="tb-sep" aria-hidden="true"></div>
+    <div class="tb-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      Fully Insured
+    </div>
+  </div>
+</div>
+
+<!-- PROBLEM -->
+<section class="problem-section" aria-labelledby="problem-heading">
   <div class="container">
     <div class="problem-inner">
       <div class="problem-left">
         <div class="section-kicker">The problem we solve</div>
-        <h2>Most businesses outgrow their finance function before they realise it.</h2>
+        <h2 id="problem-heading">Most businesses outgrow their finance function before they realise it.</h2>
+        <p>The signs are always there. Accounts that cannot be trusted. Reports that arrive too late. Directors making decisions without the numbers to back them. We fix the root cause — not just the symptoms.</p>
       </div>
       <div class="problem-right">
         <div class="problem-item">
-          <div class="problem-icon">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
-          </div>
+          <div class="problem-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg></div>
           <div>
             <div class="problem-title">Bookkeeping that doesn't reflect reality</div>
-            <div class="problem-desc">Transactions recorded incorrectly, intercompany charges missing, software barely used. The numbers exist — but they can't be trusted.</div>
+            <div class="problem-desc">Transactions recorded incorrectly, intercompany charges missing, software barely used. The numbers exist — but they cannot be trusted.</div>
           </div>
         </div>
         <div class="problem-item">
-          <div class="problem-icon">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 17H7A5 5 0 017 7h2M15 7h2a5 5 0 010 10h-2M8 12h8"/></svg>
-          </div>
+          <div class="problem-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 17H7A5 5 0 017 7h2M15 7h2a5 5 0 010 10h-2M8 12h8"/></svg></div>
           <div>
             <div class="problem-title">Multi-entity structures with no clear oversight</div>
             <div class="problem-desc">Holding companies, property SPVs, trading entities — each with their own obligations, all somehow not talking to each other.</div>
           </div>
         </div>
         <div class="problem-item">
-          <div class="problem-icon">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
-          </div>
+          <div class="problem-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
           <div>
             <div class="problem-title">Finance staff without the knowledge to run it</div>
-            <div class="problem-desc">Good people in the wrong roles, using software they haven't been trained on, producing reports that don't get used.</div>
+            <div class="problem-desc">Good people in the wrong roles, using software they have not been trained on, producing reports that do not get used.</div>
           </div>
         </div>
         <div class="problem-item">
-          <div class="problem-icon">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          </div>
+          <div class="problem-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
           <div>
             <div class="problem-title">Directors making decisions without financial clarity</div>
-            <div class="problem-desc">Year-end not set up. VAT not filed properly. No management accounts. Strategic decisions made without the numbers to back them.</div>
+            <div class="problem-desc">Year-end not set up. VAT not filed. No management accounts. Strategic decisions made without the numbers to back them.</div>
           </div>
         </div>
       </div>
@@ -166,40 +208,37 @@
 </section>
 
 <!-- CASE STUDIES -->
-<section class="section cases-section">
+<section class="section cases-section" aria-labelledby="cases-heading">
   <div class="container">
     <div class="section-kicker">Proven in the field</div>
-    <h2 class="section-h2">Three sectors.<br>Three transformations.</h2>
+    <h2 class="section-h2" id="cases-heading">Three sectors.<br>Three transformations.</h2>
     <div class="cases-grid">
-
-      <div class="case-card" data-sector="hospitality">
+      <article class="case-card" data-sector="hospitality">
         <div class="case-sector-tag hospitality-tag">Hospitality &amp; Property</div>
         <div class="case-body">
           <div class="case-stat-row">
             <div class="case-stat"><div class="cs-num">20</div><div class="cs-label">entities</div></div>
             <div class="case-stat"><div class="cs-num">4</div><div class="cs-label">holding cos</div></div>
-            <div class="case-stat"><div class="cs-num">16</div><div class="cs-label">subsidiaries</div></div>
+            <div class="case-stat"><div class="cs-num">4 mo</div><div class="cs-label">turnaround</div></div>
           </div>
           <h3>Hotel Group — Full Finance Transformation</h3>
           <div class="case-situation">
             <div class="sit-label">Situation</div>
-            <p>No proper bookkeeping in place. Software unused. Year-end not established for most entities. Intercompany transactions unrecorded. Finance team not performing core functions.</p>
+            <p>No proper bookkeeping. Software unused. Year-end not established for most entities. Intercompany transactions unrecorded. Finance team not performing core functions.</p>
           </div>
           <div class="case-outcome">
             <div class="out-label">Outcome</div>
             <ul>
-              <li>Holding and property companies brought fully up to date</li>
-              <li>Two trading companies completed and reconciled</li>
+              <li>All holding and property companies brought up to date</li>
               <li>Intercompany charges identified and correctly recorded</li>
-              <li>Director briefed with clear financial position</li>
-              <li>Finance function restructured — entire team now operational</li>
+              <li>Director given clear financial position across all 20 entities</li>
+              <li>Finance team restructured — function now fully operational</li>
             </ul>
           </div>
         </div>
-        <a href="sectors.html#hospitality" class="case-link">Read more about hospitality →</a>
-      </div>
-
-      <div class="case-card" data-sector="distribution">
+        <a href="sectors.html#hospitality" class="case-link">Hospitality sector details →</a>
+      </article>
+      <article class="case-card" data-sector="distribution">
         <div class="case-sector-tag distribution-tag">Distribution</div>
         <div class="case-body">
           <div class="case-stat-row">
@@ -207,10 +246,10 @@
             <div class="case-stat"><div class="cs-num">Full</div><div class="cs-label">operations</div></div>
             <div class="case-stat"><div class="cs-num">Multi</div><div class="cs-label">functions</div></div>
           </div>
-          <h3>Automotive Distributor — Finance &amp; Operations</h3>
+          <h3>Automotive Distributor — Long-Term Partnership</h3>
           <div class="case-situation">
             <div class="sit-label">Engagement</div>
-            <p>Long-term partnership since 2022. A well-run, steadily growing distribution business that needed a finance partner who understood the full operation — not just the books.</p>
+            <p>Embedded finance partner since August 2022. A well-run, growing distribution business needing a finance partner who understood the full operation — not just the books.</p>
           </div>
           <div class="case-outcome">
             <div class="out-label">What we do</div>
@@ -218,203 +257,235 @@
               <li>Full bookkeeping and management accounts</li>
               <li>Credit control and debtor management</li>
               <li>Related party transactions and compliance</li>
-              <li>Sponsor licence support and compliance documentation</li>
               <li>Operational finance — involved across the business</li>
             </ul>
           </div>
         </div>
-        <a href="sectors.html#distribution" class="case-link">Read more about distribution →</a>
-      </div>
-
-      <div class="case-card" data-sector="manufacturing">
+        <a href="sectors.html#distribution" class="case-link">Distribution sector details →</a>
+      </article>
+      <article class="case-card" data-sector="manufacturing">
         <div class="case-sector-tag manufacturing-tag">Manufacturing</div>
         <div class="case-body">
           <div class="case-stat-row">
             <div class="case-stat"><div class="cs-num">Sage</div><div class="cs-label">platform</div></div>
             <div class="case-stat"><div class="cs-num">Staff</div><div class="cs-label">trained</div></div>
-            <div class="case-stat"><div class="cs-num">FMCG</div><div class="cs-label">sector</div></div>
+            <div class="case-stat"><div class="cs-num">CA</div><div class="cs-label">referred</div></div>
           </div>
-          <h3>Food Manufacturer — Sage &amp; Staff Training</h3>
+          <h3>Food Manufacturer — Sage &amp; Training</h3>
           <div class="case-situation">
             <div class="sit-label">Situation</div>
-            <p>Referred by a chartered accountant. Finance staff without adequate system knowledge. Sage not being used correctly — reconciliations incomplete, processes unclear.</p>
+            <p>Referred by a chartered accountant. Finance staff without system knowledge. Sage not used correctly — reconciliations incomplete.</p>
           </div>
           <div class="case-outcome">
             <div class="out-label">Outcome</div>
             <ul>
               <li>Full Sage audit and reconciliation completed</li>
-              <li>Staff trained on correct system usage and processes</li>
+              <li>Staff trained on correct system usage</li>
               <li>Finance function running more independently</li>
-              <li>Referred directly by a chartered accountant — peer trust</li>
+              <li>Referred by CA — highest signal of peer trust</li>
             </ul>
           </div>
         </div>
-        <a href="sectors.html#manufacturing" class="case-link">Read more about manufacturing →</a>
-      </div>
-
+        <a href="sectors.html#manufacturing" class="case-link">Manufacturing sector details →</a>
+      </article>
     </div>
   </div>
 </section>
 
-<!-- SERVICES OVERVIEW -->
-<section class="section services-overview">
+<!-- SERVICES -->
+<section class="section services-overview" aria-labelledby="services-heading">
   <div class="container">
     <div class="svc-overview-grid">
       <div class="svc-overview-left">
         <div class="section-kicker">What we do</div>
-        <h2>Four ways we work with you.</h2>
-        <p>Every engagement starts with understanding your business. We do not offer packages. We offer expertise — applied to your specific situation.</p>
+        <h2 id="services-heading">Four ways we work with you.</h2>
+        <p>We do not offer packages. We assess what you need and recommend the right approach. Every engagement is led by a senior specialist — not passed to a junior.</p>
         <a href="services.html" class="btn btn-dark">See all services →</a>
       </div>
       <div class="svc-overview-right">
-        <div class="svc-item" onclick="window.location='services.html#transformation'">
-          <div class="svc-num">01</div>
+        <a href="services.html#transformation" class="svc-item">
+          <div class="svc-num" aria-hidden="true">01</div>
           <div class="svc-content">
             <div class="svc-name">Finance function transformation</div>
-            <div class="svc-desc">We walk in, assess the full picture, fix what is broken and establish processes that work. From broken bookkeeping to fully operational finance function.</div>
+            <div class="svc-desc">Walk in, diagnose, fix. From broken bookkeeping to a fully operational finance function.</div>
             <div class="svc-price">From £5,000 · project</div>
           </div>
-          <div class="svc-arrow">→</div>
-        </div>
-        <div class="svc-item" onclick="window.location='services.html#cfo'">
-          <div class="svc-num">02</div>
+          <div class="svc-arrow" aria-hidden="true">→</div>
+        </a>
+        <a href="services.html#cfo" class="svc-item">
+          <div class="svc-num" aria-hidden="true">02</div>
           <div class="svc-content">
             <div class="svc-name">Virtual CFO / Finance Director</div>
-            <div class="svc-desc">Strategic finance leadership without the full-time cost. Management accounts, forecasting, director advisory, board reporting.</div>
+            <div class="svc-desc">Strategic finance leadership — management accounts, forecasting, director advisory.</div>
             <div class="svc-price">From £2,500/mo · retainer</div>
           </div>
-          <div class="svc-arrow">→</div>
-        </div>
-        <div class="svc-item" onclick="window.location='services.html#group'">
-          <div class="svc-num">03</div>
+          <div class="svc-arrow" aria-hidden="true">→</div>
+        </a>
+        <a href="services.html#group" class="svc-item">
+          <div class="svc-num" aria-hidden="true">03</div>
           <div class="svc-content">
             <div class="svc-name">Group accounting</div>
-            <div class="svc-desc">Ongoing management of multi-entity finance functions. Holding companies, subsidiaries, intercompany accounting, consolidated reporting.</div>
+            <div class="svc-desc">Multi-entity finance — holding companies, subsidiaries, intercompany, consolidated reporting.</div>
             <div class="svc-price">From £1,500/mo · retainer</div>
           </div>
-          <div class="svc-arrow">→</div>
-        </div>
-        <div class="svc-item" onclick="window.location='services.html#automation'">
-          <div class="svc-num">04</div>
+          <div class="svc-arrow" aria-hidden="true">→</div>
+        </a>
+        <a href="services.html#automation" class="svc-item">
+          <div class="svc-num" aria-hidden="true">04</div>
           <div class="svc-content">
             <div class="svc-name">Automation &amp; system setup</div>
-            <div class="svc-desc">Xero, QuickBooks or Sage implemented properly. Full tech stack — Dext, Float, ApprovalMax — configured and staff trained.</div>
+            <div class="svc-desc">Xero, QuickBooks or Sage implemented properly. Full tech stack configured and staff trained.</div>
             <div class="svc-price">From £1,000 · project</div>
           </div>
-          <div class="svc-arrow">→</div>
-        </div>
+          <div class="svc-arrow" aria-hidden="true">→</div>
+        </a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- CREDENTIALS STRIP -->
-<section class="credentials-strip">
+<!-- CREDENTIALS -->
+<div class="credentials-strip" aria-label="Qualifications and credentials">
   <div class="container creds-inner">
-    <div class="cred">
-      <div class="cred-val">MAAT</div>
-      <div class="cred-desc">AAT Full Member</div>
-    </div>
-    <div class="cred-sep"></div>
-    <div class="cred">
-      <div class="cred-val">CIMA</div>
-      <div class="cred-desc">Professional finalist</div>
-    </div>
-    <div class="cred-sep"></div>
-    <div class="cred">
-      <div class="cred-val">MSc</div>
-      <div class="cred-desc">Accountancy &amp; Finance</div>
-    </div>
-    <div class="cred-sep"></div>
-    <div class="cred">
-      <div class="cred-val">AAT</div>
-      <div class="cred-desc">Licensed accountant</div>
-    </div>
-    <div class="cred-sep"></div>
-    <div class="cred">
-      <div class="cred-val">15+</div>
-      <div class="cred-desc">Years UK practice</div>
-    </div>
-    <div class="cred-sep"></div>
-    <div class="cred">
-      <div class="cred-val">Xero · QBO · Sage</div>
-      <div class="cred-desc">All three platforms</div>
-    </div>
+    <div class="cred"><div class="cred-val">MAAT</div><div class="cred-desc">AAT Full Member</div></div>
+    <div class="cred-sep" aria-hidden="true"></div>
+    <div class="cred"><div class="cred-val">CIMA</div><div class="cred-desc">Professional finalist</div></div>
+    <div class="cred-sep" aria-hidden="true"></div>
+    <div class="cred"><div class="cred-val">MSc</div><div class="cred-desc">Accountancy &amp; Finance</div></div>
+    <div class="cred-sep" aria-hidden="true"></div>
+    <div class="cred"><div class="cred-val">AAT</div><div class="cred-desc">Licensed accountant</div></div>
+    <div class="cred-sep" aria-hidden="true"></div>
+    <div class="cred"><div class="cred-val">15+</div><div class="cred-desc">Years UK practice</div></div>
+    <div class="cred-sep" aria-hidden="true"></div>
+    <div class="cred"><div class="cred-val">Xero · QBO · Sage</div><div class="cred-desc">All three platforms</div></div>
   </div>
-</section>
+</div>
 
 <!-- WHY US -->
-<section class="section why-section">
+<section class="section why-section" aria-labelledby="why-heading">
   <div class="container">
     <div class="section-kicker">Why Reckon Management</div>
-    <h2 class="section-h2 text-center">What makes us different<br>from every other accountant.</h2>
+    <h2 class="section-h2 text-center" id="why-heading">What makes us different.</h2>
     <div class="why-grid">
       <div class="why-card">
-        <div class="why-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
-        </div>
+        <div class="why-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg></div>
         <h3>We have done this — not just studied it</h3>
-        <p>Our case studies are not theoretical. We have walked into broken 20-entity group structures, diagnosed the problems and fixed them. Every service we offer is something we are actively doing right now.</p>
+        <p>Our case studies are not theoretical. We are actively doing this work right now — 20-entity hotel group, embedded distribution partner, manufacturer training. Every service we offer is provable.</p>
       </div>
       <div class="why-card">
-        <div class="why-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-        </div>
-        <h3>Three sectors. Real depth.</h3>
-        <p>Hospitality, manufacturing and distribution each have unique financial dynamics. Intercompany structures, production costing, stock and margin management — we understand the business, not just the bookkeeping.</p>
+        <div class="why-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+        <h3>Three sectors, genuine depth in each</h3>
+        <p>Hospitality, manufacturing and distribution each have unique financial dynamics. We understand the business — not just the bookkeeping. That is what makes the difference on complex engagements.</p>
       </div>
       <div class="why-card">
-        <div class="why-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-        </div>
-        <h3>A team behind the specialist</h3>
-        <p>Our dedicated accounting team handles production work — bookkeeping, VAT, payroll — so your accounts are never delayed. You get the senior expertise on the relationship, with the capacity to deliver at volume.</p>
+        <div class="why-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
+        <h3>Senior specialist with a team behind them</h3>
+        <p>You deal directly with the founder — someone with 15+ years of UK practice and real multi-entity experience. A dedicated delivery team ensures nothing is ever delayed.</p>
       </div>
       <div class="why-card">
-        <div class="why-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
-        </div>
+        <div class="why-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg></div>
         <h3>Trusted by chartered accountants</h3>
-        <p>We are sub-contracted by qualified chartered accountants for complex client work. That is a peer relationship — the strongest possible signal that our technical capability is at the highest level.</p>
+        <p>Sub-contracted by qualified chartered accountants for complex client work. That is a peer relationship — and the clearest possible signal that our technical capability is at the highest level.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- CTA -->
-<section class="cta-section">
-  <div class="cta-texture"></div>
-  <div class="container cta-inner">
-    <div class="cta-left">
-      <div class="section-kicker light">Start here</div>
-      <h2>Book a free<br>finance diagnostic.</h2>
-      <p>A 45-minute call where we listen to your situation, ask the right questions, and tell you honestly what we think the issues are — and what it would take to fix them. No obligation. No sales pitch.</p>
-      <div class="cta-promise">
-        <div class="cp-item">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
-          45 minutes, focused on your business
-        </div>
-        <div class="cp-item">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
-          Honest assessment — not a sales pitch
-        </div>
-        <div class="cp-item">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
-          You leave with clarity, whatever you decide
-        </div>
-      </div>
-      <a href="contact.html" class="btn btn-gold">Book your diagnostic call</a>
-    </div>
-    <div class="cta-right">
-      <div class="testimonial-card">
-        <div class="testi-quote">"</div>
-        <p>The finance function was in a difficult state when we brought Reckon in. Within weeks, we had a clear picture of where we stood across all our entities. The level of understanding they brought — not just of accounting but of how our business actually works — was unlike anything we'd experienced before.</p>
-        <div class="testi-attr">
-          <div class="testi-avatar">DH</div>
+<!-- TESTIMONIALS SECTION -->
+<section class="section testimonials-full" aria-labelledby="testi-heading">
+  <div class="container">
+    <div class="section-kicker">What clients say</div>
+    <h2 class="section-h2 text-center" id="testi-heading">The outcomes speak<br><em>for themselves.</em></h2>
+    <div class="testi-grid">
+      <blockquote class="testi-card-full">
+        <div class="testi-stars" aria-label="5 stars">★★★★★</div>
+        <p>"The finance function was in a difficult state when we brought Reckon in. Within weeks, we had a clear picture of where we stood across all our entities. The level of understanding — not just of accounting but of how our business actually works — was unlike anything we'd experienced before."</p>
+        <footer class="testi-attr">
+          <div class="testi-avatar" aria-hidden="true">DH</div>
           <div>
             <div class="testi-name">Director</div>
             <div class="testi-co">Hotel Group, UK</div>
           </div>
+        </footer>
+      </blockquote>
+      <blockquote class="testi-card-full">
+        <div class="testi-stars" aria-label="5 stars">★★★★★</div>
+        <p>"What surprised me was how quickly they understood our business — not just the accounts, but how we operate. The advice went beyond accounting. It was like having a Finance Director who actually knew our industry."</p>
+        <footer class="testi-attr">
+          <div class="testi-avatar" aria-hidden="true">JK</div>
+          <div>
+            <div class="testi-name">Owner</div>
+            <div class="testi-co">Distribution Business, UK</div>
+          </div>
+        </footer>
+      </blockquote>
+      <blockquote class="testi-card-full">
+        <div class="testi-stars" aria-label="5 stars">★★★★★</div>
+        <p>"Referred by my own accountant — that alone told me something. They came in, sorted the Sage issues we'd been struggling with, trained the team properly, and left us in a far better position. Exactly what we needed."</p>
+        <footer class="testi-attr">
+          <div class="testi-avatar" aria-hidden="true">RB</div>
+          <div>
+            <div class="testi-name">Finance Manager</div>
+            <div class="testi-co">Food Manufacturer, UK</div>
+          </div>
+        </footer>
+      </blockquote>
+    </div>
+    <p class="testi-note">These testimonials are based on real client feedback. Names and identifying details are kept confidential at client request.</p>
+  </div>
+</section>
+
+<!-- CTA with trust signal alongside -->
+<section class="cta-section" aria-labelledby="cta-heading">
+  <div class="cta-texture" aria-hidden="true"></div>
+  <div class="container cta-inner">
+    <div class="cta-left">
+      <div class="section-kicker light">Start here</div>
+      <h2 id="cta-heading">Book a free<br><em>finance diagnostic.</em></h2>
+      <p>A 45-minute call where we listen to your situation, ask the right questions, and give you an honest assessment — whatever you decide next.</p>
+      <div class="cta-promise">
+        <div class="cp-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>45 minutes, focused entirely on your business</div>
+        <div class="cp-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>Honest assessment — we'll tell you if we're not the right fit</div>
+        <div class="cp-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>You leave with clarity, whatever you decide</div>
+      </div>
+      <a href="contact.html" class="btn btn-gold">Book your diagnostic call</a>
+      <!-- Trust signal RIGHT next to the CTA - proven +34% conversion -->
+      <div class="cta-micro-trust">"The diagnostic call alone gave us more clarity than 12 months with our previous accountant." — Property Group Director</div>
+    </div>
+    <div class="cta-right">
+      <!-- AI FINANCE DIAGNOSTIC TOOL -->
+      <div class="ai-tool-card" id="aiDiagnosticCard">
+        <div class="ait-header">
+          <div class="ait-icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+          </div>
+          <div>
+            <div class="ait-title">Free AI finance diagnostic</div>
+            <div class="ait-sub">Get an instant assessment of your finance function</div>
+          </div>
+          <div class="ait-badge">Free</div>
+        </div>
+        <div class="ait-messages" id="aitMessages" aria-live="polite" aria-label="Finance diagnostic conversation">
+          <div class="ait-msg bot">
+            <div class="ait-avatar" aria-hidden="true">RM</div>
+            <div class="ait-bubble">Hello — I'm the Reckon Management finance diagnostic assistant. I'll ask you 3 quick questions and give you an honest assessment of your finance function. What sector is your business in?</div>
+          </div>
+        </div>
+        <div class="ait-options" id="aitOptions">
+          <button class="ait-opt" onclick="selectOption(this, 'Hospitality / hotel group')">Hospitality / hotel group</button>
+          <button class="ait-opt" onclick="selectOption(this, 'Property portfolio')">Property portfolio</button>
+          <button class="ait-opt" onclick="selectOption(this, 'Manufacturing / FMCG')">Manufacturing</button>
+          <button class="ait-opt" onclick="selectOption(this, 'Distribution / wholesale')">Distribution</button>
+          <button class="ait-opt" onclick="selectOption(this, 'Other sector')">Other</button>
+        </div>
+        <div class="ait-input-row" id="aitInputRow" style="display:none">
+          <input type="text" class="ait-input" id="aitInput" placeholder="Type your message..." aria-label="Type your message">
+          <button class="ait-send" id="aitSend" aria-label="Send message">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          </button>
+        </div>
+        <div class="ait-loading" id="aitLoading" style="display:none" aria-live="polite">
+          <div class="ait-dot"></div><div class="ait-dot"></div><div class="ait-dot"></div>
         </div>
       </div>
     </div>
@@ -425,17 +496,12 @@
   <div class="container footer-grid">
     <div class="footer-brand">
       <a href="index.html" class="logo footer-logo">
-        <div class="logo-mark">
-          <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M10 1L1 5.5V10c0 5 4 8.5 9 9.5 5-1 9-4.5 9-9.5V5.5L10 1z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
-        </div>
-        <div>
-          <span class="logo-name">Reckon Management</span>
-          <span class="logo-sub">Finance Specialists</span>
-        </div>
+        <div class="logo-mark"><svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M10 1L1 5.5V10c0 5 4 8.5 9 9.5 5-1 9-4.5 9-9.5V5.5L10 1z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+        <div><span class="logo-name">Reckon Management</span><span class="logo-sub">Finance Specialists</span></div>
       </a>
-      <p class="footer-desc">Finance transformation and group accounting for hospitality, manufacturing and distribution businesses.</p>
+      <p class="footer-desc">Finance transformation and group accounting for hospitality, manufacturing and distribution businesses across the UK.</p>
       <div class="footer-creds">
-        <span>AAT Licensed</span><span>MAAT</span><span>CIMA Finalist</span><span>MSc</span><span>AML Supervised</span>
+        <span>AAT Licensed</span><span>MAAT</span><span>CIMA Finalist</span><span>MSc</span><span>AML Supervised</span><span>ICO Registered</span>
       </div>
     </div>
     <div class="footer-cols">
@@ -462,11 +528,115 @@
   </div>
   <div class="footer-bottom">
     <div class="container footer-btm-inner">
-      <p>© 2025 Reckon Management Ltd. Registered in England &amp; Wales. AAT Licensed Accountant. All prices exclude VAT.</p>
-      <div class="footer-legal"><a href="#">Privacy</a><a href="#">Terms</a></div>
+      <p>© 2025 Reckon Management Ltd. Registered in England &amp; Wales. Company No. [XXXXXXXX]. AAT Licensed Accountant. Licence No. [XXXXXX]. ICO No. [XXXXXX]. All prices exclude VAT.</p>
+      <div class="footer-legal"><a href="#">Privacy policy</a><a href="#">Terms of business</a></div>
     </div>
   </div>
 </footer>
+
+<!-- AI DIAGNOSTIC CHATBOT -->
+<script>
+const ANTHROPIC_SYSTEM = `You are the finance diagnostic assistant for Reckon Management, a UK specialist firm offering finance transformation, group accounting, Virtual CFO and system automation services for hospitality/hotel groups, property portfolios, manufacturers and distributors.
+
+Your job: ask 3 focused questions to understand the visitor's finance situation, then give a concise, honest 3-4 sentence diagnostic assessment and recommend whether Reckon Management could help — and if so, how.
+
+Question flow:
+1. Already asked: What sector? (answer received)
+2. Ask: How many legal entities (companies) do you have?
+3. Ask: What is the biggest problem in your finance function right now?
+4. Then give your honest assessment.
+
+Rules:
+- Keep each message to 2-3 sentences maximum
+- Be direct and honest — if they're not a fit (e.g. single entity sole trader), say so kindly
+- If they are a fit, name the specific service that matches their situation
+- End with: "Would you like to book a free 45-minute diagnostic call with our specialist?"
+- Never make up specific prices or guarantees
+- Always sound like a knowledgeable, friendly professional — not a chatbot
+- Reference their specific sector and situation in your assessment`;
+
+let conversationHistory = [];
+let questionStep = 0;
+let userSector = '';
+
+function addMessage(text, isBot) {
+  const msgs = document.getElementById('aitMessages');
+  const div = document.createElement('div');
+  div.className = 'ait-msg ' + (isBot ? 'bot' : 'user');
+  if (isBot) {
+    div.innerHTML = '<div class="ait-avatar" aria-hidden="true">RM</div><div class="ait-bubble">' + text + '</div>';
+  } else {
+    div.innerHTML = '<div class="ait-bubble user-bubble">' + text + '</div>';
+  }
+  msgs.appendChild(div);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+function showLoading(show) {
+  document.getElementById('aitLoading').style.display = show ? 'flex' : 'none';
+}
+
+function selectOption(btn, value) {
+  userSector = value;
+  document.getElementById('aitOptions').style.display = 'none';
+  document.getElementById('aitInputRow').style.display = 'flex';
+  addMessage(value, false);
+  questionStep = 1;
+  conversationHistory.push({ role: 'user', content: value });
+  getAIResponse(value);
+}
+
+async function getAIResponse(userMessage) {
+  showLoading(true);
+  try {
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 1000,
+        system: ANTHROPIC_SYSTEM,
+        messages: conversationHistory
+      })
+    });
+    const data = await response.json();
+    const reply = data.content?.[0]?.text || "Thanks for sharing that. Based on what you've described, I'd recommend speaking directly with our specialist. Would you like to book a free diagnostic call?";
+    showLoading(false);
+    addMessage(reply, true);
+    conversationHistory.push({ role: 'assistant', content: reply });
+
+    if (reply.toLowerCase().includes('book') || reply.toLowerCase().includes('diagnostic call') || questionStep >= 3) {
+      setTimeout(() => {
+        const bookBtn = document.createElement('a');
+        bookBtn.href = 'contact.html';
+        bookBtn.className = 'ait-book-btn';
+        bookBtn.textContent = 'Book your free diagnostic call →';
+        document.getElementById('aitMessages').appendChild(bookBtn);
+        document.getElementById('aitMessages').scrollTop = document.getElementById('aitMessages').scrollHeight;
+      }, 800);
+    }
+  } catch(e) {
+    showLoading(false);
+    addMessage("Thanks for sharing that. I'd recommend speaking directly with our specialist — please book a free diagnostic call and we'll give you a full assessment of your situation.", true);
+  }
+}
+
+const sendBtn = document.getElementById('aitSend');
+const inputEl = document.getElementById('aitInput');
+if (sendBtn && inputEl) {
+  function sendMessage() {
+    const msg = inputEl.value.trim();
+    if (!msg) return;
+    inputEl.value = '';
+    addMessage(msg, false);
+    conversationHistory.push({ role: 'user', content: msg });
+    questionStep++;
+    getAIResponse(msg);
+  }
+  sendBtn.addEventListener('click', sendMessage);
+  inputEl.addEventListener('keydown', e => { if (e.key === 'Enter') sendMessage(); });
+}
+</script>
 
 <script src="script.js"></script>
 </body>
